@@ -117,12 +117,18 @@ Status ClearList(LinkList *L)
 }
 int main()
 {
-	LinkList L;
+	LinkList L,p;
 	int n=5;    //单链表总共生成n个元素
 	int i=3;    //单链表在第i个位置插入元素
 	ElemType e=66;    //单链表插入元素e
 	CreateListHead(&L,n);
 	ListInsert(&L,i,e);
 	ListDelete(&L,i,&e);
+	p=L->next;
+	while(p!=NULL)
+	{
+		cout<<p->data<<endl;
+		p=p->next;
+	}
 	return 0;
 }
