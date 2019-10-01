@@ -107,5 +107,7 @@ int main()
 	InitList(&La);
 	ElemType e=1;
 	ListInsert(&La,1,e);
+	for(int i=0;i<ListLength(La);i++)
+		cout<<La.data[i]<<endl;
 	return 0;
 }
