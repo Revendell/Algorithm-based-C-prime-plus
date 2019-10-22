@@ -1,2 +1,2 @@
-# Algorithm based C prime plus
+# Algorithm based C++
  This is a repository about commom algrithm based on C++.
