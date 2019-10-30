@@ -29,7 +29,7 @@ void get_next(STR T,int *next)
 			            //逻辑意义：表示后缀字符T.data[i]与前缀字符T.data[j]元素相等，next[i+1]存储的就是前i的子串里面有j个字符相等，可以回溯到j+1进行比较，因为j前面都是相等的
 		}
 		else
-			j=next[j];  //表示后缀字符T.data[i]与前缀字符T.data[j]元素不相等，则前缀字符下标j直接回溯到next[j]，会回溯到1
+			j=next[j];  //表示后缀字符T.data[i]与前缀字符T.data[j]元素不相等，则前缀字符下标j直接回溯到next[j]，回溯到1
 	}
 }
 //返回子串T在主串S中第pos个字符之后的位置，若不存在返回值为0，时间复杂度O(n)，n是主串S的长度
@@ -48,7 +48,7 @@ int Index_KMP(STR S,STR T,int pos)
 			j++;
 		}
 		else
-			j=next[j];    //当前位置的T元素和S元素不匹配，j后退重新开始匹配，j退回到合适的位置，i不变
+			j=next[j];    //当前位置的T元素和S元素不匹配，j回溯到前j个字符串中前缀与后缀匹配相等时前缀的后一个字符下标的位置，i不变
 	}
 	if(j>T.length)
 		return i-T.length;    //当j加到数值大于T的长度则匹配成功，此时返回i在刚起始匹配的位置，所以i减去匹配的子串T的长度
