@@ -53,7 +53,7 @@ void DFSTraverse(MatrixGraph G)
 {
 	int i;
 	for(i=0;i<G.numVex;i++)
-		visited[i]=FALSE;  //初始多有顶点状态为未访问过
+		visited[i]=FALSE;  //初始所有顶点状态为未访问过
 	for(i=0;i<G.numVex;i++)
 	{
 		if(visited[i]==0)  //对未访问过的顶点调用DFS进行深度优先搜索访问
@@ -138,7 +138,7 @@ void DFSTraverse_AdjListGraph(AdjListGraph G)
 {
 	int i;
 	for(i=0;i<G.numVex;i++)
-		visited[i]=FALSE;  //初始多有顶点状态为未访问过
+		visited[i]=FALSE;  //初始所有顶点状态为未访问过
 	for(i=0;i<G.numVex;i++)
 	{
 		if(visited[i]==0)
