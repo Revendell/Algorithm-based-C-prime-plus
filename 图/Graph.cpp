@@ -70,7 +70,7 @@ void CreateAdjListGraph(AdjListGraph *G)
 	//输入顶点信息，建立顶点表
 	for(i=0;i<G->numVex;i++)
 	{
-		cin>>G->vex[i].data;  //输入顶点信息
+		cin>>G->adjList[i].data;  //输入顶点信息
 		G->adjList[i].firstEdge=NULL;  //将边表置为空表
 	}
 	//输入边信息，建立边表
