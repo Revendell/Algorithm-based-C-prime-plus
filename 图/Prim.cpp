@@ -4,7 +4,6 @@ using namespace std;
 #define Inf 65535  //定义无穷大
 typedef char VertexType;  //定义顶点数据类型
 typedef int EdgeType;  //定义边上权值数据类型
-int visited[MaxVex];  //访问标志数组，1表示访问过，0表示还未访问
 //邻接矩阵存储图的结构
 typedef struct Graph
 {
