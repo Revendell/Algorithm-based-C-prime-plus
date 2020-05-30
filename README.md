@@ -1,2 +1,2 @@
-# Algorithm based C++
-This is a repository about data structures and algrithm analysis in C++.
+# Data Structure
+This is a repository about data structure based on C++.
