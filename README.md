@@ -29,12 +29,12 @@
    - [拓扑排序](https://blog.csdn.net/Revendell/article/details/103207819)<br>
    - [关键路径](https://blog.csdn.net/Revendell/article/details/103213902)<br>
 6. 查找
-   - []()<br>
-   - []()<br>
-   - []()<br>
-   - []()<br>
-   - []()<br>
-   - []()<br>
+   - [有序表查找](https://blog.csdn.net/Revendell/article/details/103224046)<br>
+   - [线性索引查找](https://blog.csdn.net/Revendell/article/details/103265840)<br>
+   - [二叉排序树](https://blog.csdn.net/Revendell/article/details/104360588)<br>
+   - [平衡二叉树AVL](https://blog.csdn.net/Revendell/article/details/104443165)<br>
+   - [多路查找树（B树）](https://blog.csdn.net/Revendell/article/details/104451941)<br>
+   - [散列表查找（哈希表）](https://blog.csdn.net/Revendell/article/details/104579258)<br>
 7. 排序
    - []()<br>
    - []()<br>
