@@ -1,5 +1,5 @@
 # Data Structure
-This is a repository about data structure based on C++.
+这是我的数据结构仓库，下面是链接到我的[CSDN博客](https://blog.csdn.net/revendell/category_9400836.html)的详细描述。
 1. 线性表
    - [顺序存储](https://blog.csdn.net/Revendell/article/details/101628645)<br>
    - [单链表](https://blog.csdn.net/Revendell/article/details/101641479)<br>
@@ -8,6 +8,37 @@ This is a repository about data structure based on C++.
    - [双向链表](https://blog.csdn.net/Revendell/article/details/101857528)<br>
 2. 栈和队列
    - [顺序存储](https://blog.csdn.net/Revendell/article/details/102216753)<br>
+   - [双端栈（两栈共享空间）](https://blog.csdn.net/Revendell/article/details/102469216)<br>
+   - [链栈](https://blog.csdn.net/Revendell/article/details/102491635)<br>
+   - [循环队列（顺序存储结构）](https://blog.csdn.net/Revendell/article/details/102711831)<br>
+   - [链队列](https://blog.csdn.net/Revendell/article/details/102723556)<br>
+3. 串
+   - [KMP模式匹配算法](https://blog.csdn.net/Revendell/article/details/102821839)<br>
+   - [KMP模式匹配算法修改版](https://blog.csdn.net/Revendell/article/details/102827069)<br>
+4. 树
+   - [二叉树](https://blog.csdn.net/Revendell/article/details/102846152)<br>
+   - [线索二叉树](https://blog.csdn.net/Revendell/article/details/102860137)<br>
+5. 图
+   - [图的存储结构（邻接矩阵和邻接表法）](https://blog.csdn.net/Revendell/article/details/102882305)<br>
+   - [深度优先遍历](https://blog.csdn.net/Revendell/article/details/102942861)<br>
+   - [广度优先遍历](https://blog.csdn.net/Revendell/article/details/102944500)<br>
+   - [最小生成树Prim算法](https://blog.csdn.net/Revendell/article/details/102987834)<br>
+   - [最小生成树Kruskal算法](https://blog.csdn.net/Revendell/article/details/103017307)<br>
+   - [最短路径Dijkstra算法](https://blog.csdn.net/Revendell/article/details/103049355)<br>
+   - [最短路径Floyd算法](https://blog.csdn.net/Revendell/article/details/103133423)<br>
+   - [拓扑排序](https://blog.csdn.net/Revendell/article/details/103207819)<br>
+   - [关键路径](https://blog.csdn.net/Revendell/article/details/103213902)<br>
+6. 查找
+   - []()<br>
+   - []()<br>
+   - []()<br>
+   - []()<br>
+   - []()<br>
+   - []()<br>
+7. 排序
+   - []()<br>
+   - []()<br>
+   - []()<br>
    - []()<br>
    - []()<br>
    - []()<br>
